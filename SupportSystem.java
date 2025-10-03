@@ -49,6 +49,7 @@ public class SupportSystem
                 counter.addWords(input);
                 String response = responder.generateResponse(input);
                 System.out.println(response);
+                
             }
         }
         printGoodbye();

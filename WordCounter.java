@@ -31,4 +31,14 @@ public class WordCounter
             counts.put(word, counter + 1);
         }
     }
+    
+    /**
+    * Print the usage count of each word.
+    */
+    public void printWordCounts() {
+        for (String word : counts.keySet()) {
+        System.out.println(word + ": " + counts.get(word));
+        }
+    }
+
 }
